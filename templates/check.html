@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Status das aplicações</title>
+    </head>
+    <header>
+        Status das aplicações do <a id='machine_name'>{{ title }}</a>
+    </header>
+    <body>
+        {% for program in dict_machine %}
+        <div>
+            <p><a id="app_name">{{ dict_machine[program]['name'] }}</a> : <b id="status">{{ dict_machine[program]['status'] }}</b></p>
+        </div>
+        {% endfor %}
+    </body>
+</html>
+
