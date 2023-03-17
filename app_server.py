@@ -6,7 +6,7 @@ from elevate import elevate
 from flask import Flask, render_template 
 
 dict_machine = {}
-machine_name = 'Engine_06' #Precisa colocar o da máquina
+machine_name = 'Engine_X' #Precisa colocar o nome/apelido da máquina
 
 #Verificar e colocar os paths dos executáveis desejados
 list_programs_path = ['C:\\Program Files\\Vizrt\\Viz3\\viz.exe -u1 -y -n', 'C:\\Program Files\\Vizrt\\Viz3\\viz.exe -u2 -y -n', 'C:\\iHOP4\\HOP_Console.exe']
